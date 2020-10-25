@@ -1,3 +1,5 @@
+/*Duy An Minh Pham - 991517388*/
+
 package com.example.minh_trivia
 
 import androidx.appcompat.app.AppCompatActivity
