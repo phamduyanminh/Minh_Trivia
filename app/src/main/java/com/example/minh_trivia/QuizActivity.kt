@@ -4,6 +4,7 @@ package com.example.minh_trivia
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.util.Log
 
 class QuizActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
