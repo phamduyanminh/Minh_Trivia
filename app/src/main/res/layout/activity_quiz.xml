@@ -36,7 +36,7 @@
         app:layout_constraintVertical_bias="0.32">
 
         <RadioButton
-            android:id="@+id/r1"
+            android:id="@+id/radioOption1"
             android:layout_width="314dp"
             android:layout_height="wrap_content"
             android:onClick="onRadioButtonClicked"
@@ -44,7 +44,7 @@
             tools:ignore="OnClick" />
 
         <RadioButton
-            android:id="@+id/r2"
+            android:id="@+id/radioOption2"
             android:layout_width="314dp"
             android:layout_height="wrap_content"
             android:onClick="onRadioButtonClicked"
@@ -52,7 +52,7 @@
             tools:ignore="OnClick" />
 
         <RadioButton
-            android:id="@+id/r3"
+            android:id="@+id/radioOption3"
             android:layout_width="314dp"
             android:layout_height="wrap_content"
             android:onClick="onRadioButtonClicked"
@@ -60,7 +60,7 @@
             tools:ignore="OnClick" />
 
         <RadioButton
-            android:id="@+id/r4"
+            android:id="@+id/radioOption4"
             android:layout_width="314dp"
             android:layout_height="wrap_content"
             android:onClick="onRadioButtonClicked"
