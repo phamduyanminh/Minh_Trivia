@@ -1,5 +1,7 @@
 package com.example.minh_trivia
 
+import com.example.minh_trivia.Question
+
 object Constants {
     fun getQuestions(): ArrayList<Question>{
         val questionsList = ArrayList<Question>()

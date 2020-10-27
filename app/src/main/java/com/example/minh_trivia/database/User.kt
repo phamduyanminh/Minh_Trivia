@@ -3,7 +3,7 @@ package com.example.minh_trivia.database
 import androidx.room.Entity
 import androidx.room.PrimaryKey
 
-@Entity
+@Entity(tableName = "user_table")
 data class User (
     @PrimaryKey val id: Int,
     @PrimaryKey val question: String,
