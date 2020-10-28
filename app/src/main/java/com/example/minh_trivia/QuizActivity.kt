@@ -6,7 +6,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import android.widget.Toast
-import com.example.minh_trivia.database.User
+import com.example.minh_trivia.model.Question
 import kotlinx.android.synthetic.main.activity_quiz.*
 
 class QuizActivity : AppCompatActivity(), View.OnClickListener{

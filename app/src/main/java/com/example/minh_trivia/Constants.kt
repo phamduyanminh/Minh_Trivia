@@ -1,6 +1,6 @@
 package com.example.minh_trivia
 
-import com.example.minh_trivia.Question
+import com.example.minh_trivia.model.Question
 
 object Constants {
     fun getQuestions(): ArrayList<Question>{

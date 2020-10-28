@@ -4,17 +4,18 @@ import android.content.Context
 import androidx.room.Database
 import androidx.room.Room
 import androidx.room.RoomDatabase
-import kotlinx.coroutines.InternalCoroutinesApi
-import kotlinx.coroutines.internal.synchronized
+import  com.example.minh_trivia.R
+import com.example.minh_trivia.model.Question
 
-@Database(entities = [User::class], version = 1, exportSchema = false)
+
+@Database(entities = [Question::class], version = 1)
 abstract class MinhTriviaDatabase: RoomDatabase() {
-    abstract fun userDao(): UserDAO
+    abstract fun questionDao(): QuestionDAO
 
     companion object{
         @Volatile
         private var INSTANCE: MinhTriviaDatabase? = null
-        @InternalCoroutinesApi
+
         fun getDatabase(context: Context): MinhTriviaDatabase{
             val tempInstance = INSTANCE
             if (tempInstance != null){
